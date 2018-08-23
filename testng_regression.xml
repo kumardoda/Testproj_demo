@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Regression Suite" parallel="classes" thread-count="3">
+<listeners>
+<listener class-name ="com.qa.ExtentReportListener.ExtentReportNG" />
+</listeners>
+
+  <test  name="Test">
+    <groups>
+    <run>
+    <include name = "Regression" />
+    </run>
+    </groups>
+    
+    <classes>
+      <class name="com.crm.qa.tests.DealsPageTest">
+       <methods>
+        <include name="validateCreateNewDeal" />  
+        <include name="deleteDeal" />    
+      </methods>
+        </class>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

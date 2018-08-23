@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Regression Suite" duration-ms="53460" started-at="2018-08-22T04:59:00Z" finished-at="2018-08-22T04:59:53Z">
+    <groups>
+      <group name="Regression">
+        <method signature="DealsPageTest.validateCreateNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="validateCreateNewDeal" class="com.crm.qa.tests.DealsPageTest"/>
+        <method signature="DealsPageTest.deleteDeal()[pri:2, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="deleteDeal" class="com.crm.qa.tests.DealsPageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="53460" started-at="2018-08-22T04:59:00Z" finished-at="2018-08-22T04:59:53Z">
+      <class name="com.crm.qa.tests.DealsPageTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="initializeBrowser" duration-ms="21483" started-at="2018-08-22T04:59:00Z" finished-at="2018-08-22T04:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="validateCreateNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="validateCreateNewDeal" duration-ms="6876" started-at="2018-08-22T04:59:22Z" data-provider="getTestData" depends-on-methods="com.crm.qa.tests.DealsPageTest.initializeBrowser" finished-at="2018-08-22T04:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deal1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9865874876]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2564]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is test description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeal -->
+        <test-method status="PASS" signature="validateCreateNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="validateCreateNewDeal" duration-ms="6646" started-at="2018-08-22T04:59:29Z" data-provider="getTestData" depends-on-methods="com.crm.qa.tests.DealsPageTest.initializeBrowser" finished-at="2018-08-22T04:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deal2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9865874877]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5896]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is test description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeal -->
+        <test-method status="PASS" signature="validateCreateNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="validateCreateNewDeal" duration-ms="6496" started-at="2018-08-22T04:59:35Z" data-provider="getTestData" depends-on-methods="com.crm.qa.tests.DealsPageTest.initializeBrowser" finished-at="2018-08-22T04:59:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deal3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9865874878]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8745]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is test description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDeal -->
+        <test-method status="PASS" signature="deleteDeal()[pri:2, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="deleteDeal" duration-ms="10610" started-at="2018-08-22T04:59:42Z" finished-at="2018-08-22T04:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDeal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.DealsPageTest@68ceda24]" name="tearDown" is-config="true" duration-ms="905" started-at="2018-08-22T04:59:53Z" finished-at="2018-08-22T04:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.DealsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!--  Regression Suite -->
+</testng-results>
